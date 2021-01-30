@@ -1,0 +1,6 @@
+.menu {
+    width: 3em;
+    height: 100%;
+    background-color: var(--menu-bg);
+    color: var(--menu-content-color);
+}
