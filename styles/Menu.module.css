@@ -1,5 +1,5 @@
 .menu {
-    width: 5em;
+    width: 7em;
     height: 100%;
     background-color: var(--menu-bg);
     color: var(--menu-content-color);
@@ -7,4 +7,27 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-gap: 1fr;
+}
+.menuitem {
+    width: 7em;
+    height: auto;
+    padding: 1.5em 1em;
+    background-color: var(--menuitem-bg-color);
+    color: var(--menuitem-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    grid-gap: 0.5em;
+    transition: 0.25s all ease-in-out;
+}
+.menuitem:hover {
+    background-color: var(--menuitem-bg-color-hover);
+}
+.menuitem img {
+    width: 2em;
+}
+.menuitem * {
+    padding: 0;
+    margin: 0;
 }
