@@ -5,6 +5,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 100vh;
   width: 100vw;
+  background-color: #121212;
 }
 
 a {
@@ -16,6 +17,6 @@ a {
   box-sizing: border-box;
 }
 :root {
-    --menu-bg: #121212;
+    --menu-bg: black;
     --menu-content-color: white;
 }
